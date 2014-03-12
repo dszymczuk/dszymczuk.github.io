@@ -94,7 +94,7 @@
                         <div class="jumbotron">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <pre>@include fall-down("page",4,#040B13,"lighten",10%);</pre>
+                                    <pre>@include waterfall("page",4,#040B13,"lighten",10%);</pre>
                                 </div>
                             </div>
                             <div class="row">
@@ -126,7 +126,7 @@
                                     <p class="question">1. Is it possible to set automatically step?</p>
 
                                     <p>Yes, it is possible! You can use step-helper as last parameter:</p>
-                                    <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                    <pre>@include waterfall("page",4,#040B13,"lighten",step-helper(4));</pre>
                                     <p>But it's one problem with this solution - last step is white so you have to
                                         change font color or .... check 2 point</p>
 
@@ -134,18 +134,16 @@
 
                                     <p>Yes, it is possible.<br>
                                         You have to two solutions:</p>
-
                                     <p>First:</p>
-
                                     <div class="indent">
-                                        <p>You can use step-helper as last parameter:</p>
-                                        <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                        <p>You set last parameter lower, for example 10%:</p>
+                                        <pre>@include waterfall("page",4,#040B13,"lighten",10%);</pre>
+                                        <p>In first step it will be 0%, second 10%, third 20% and fourth (last) 30%</p>
                                     </div>
                                     <p>Second:</p>
-
                                     <div class="indent">
-                                        <p>You can use step-helper as last parameter:</p>
-                                        <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                        <p>You can use step-helper as last parameter with higher value then number of steps:</p>
+                                        <pre>@include waterfall("page",4,#040B13,"lighten",step-helper(10));</pre>
                                     </div>
 
                                 </div>

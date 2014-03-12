@@ -17,53 +17,49 @@ html {
   margin: 0 auto;
   overflow: hidden;
   color: white;
-}
-
-.tab_parent {
-  display: table;
-  width: 100%;
-  height: 100%;
-  .tab_child {
-    display: table-cell;
-    vertical-align: middle;
+  .tab_parent {
+    display: table;
     width: 100%;
     height: 100%;
-  }
-}
-
-h1.big {
-  font-size: 60px;
-  @include text-shadow(rgba($yellow, 0.3) 2px 2px 0);
-}
-
-p {
-  font-size: 20px;
-}
-
-a {
-   color: darken($yellow,10%);
- }
-
-a:hover, a:focus {
-  color: darken($yellow,20%);
-}
-
-.jumbotron {
-  color: black;
-  p {
-    font-size: 14px;
-    &.question {
-      font-weight: bold;
+    .tab_child {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      height: 100%;
     }
   }
-  div.indent {
-    padding-left: 30px;
+
+  h1.big {
+    font-size: 60px;
+    @include text-shadow(rgba($yellow, 0.3) 2px 2px 0);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    color: darken($yellow, 10%);
+  }
+
+  a:hover, a:focus {
+    color: darken($yellow, 20%);
+  }
+
+  .jumbotron {
+    color: black;
+    p {
+      font-size: 14px;
+      &.question {
+        font-weight: bold;
+      }
+    }
+    div.indent {
+      padding-left: 30px;
+    }
   }
 }
 
-
-
-
 $steps: 10;
-//@include fall-down("page",$steps,$blue,"lighten",10%);
-@include fall-down("page",$steps,$blue,"lighten",step-helper(20));
+//@include waterfall("page",$steps,$blue,"lighten",10%);
+@include waterfall("page", $steps, $blue, "lighten", step-helper(50));
