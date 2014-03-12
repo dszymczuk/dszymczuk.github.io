@@ -1,0 +1,37 @@
+@function step-helper($steps){
+  @return 100/$steps;
+}
+
+@mixin fall-down ($times: 3, $start_color: #000, $type: "lighten", $color_step: 10%){
+  $old_color:$start_color;
+  $new_color: #000; //it's for complile scss - it will be override
+  $i: 1;
+
+  @if $type == "lighten"
+  {
+    $new_color:lighten($old_color, $color_step);
+  }
+  @else
+  {
+    $new_color:darken($old_color, $color_step);
+  }
+
+  @while $i < $times {
+    #page-#{$i}
+    {
+      @include background(linear-gradient(top, $old_color, $new_color));
+    }
+
+    $old_color:$new_color;
+    $new_color:lighten($old_color, $color_step);
+    @if $type == "lighten"
+    {
+      $new_color:lighten($old_color, $color_step);
+    }
+    @else
+    {
+      $new_color:darken($old_color, $color_step);
+    }
+    $i : $i + 1 ;
+  }
+}
