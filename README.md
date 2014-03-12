@@ -1,4 +1,3 @@
-# Small mixin for Compass to create waterfall effect for one page scroll website
+#mixin-waterfall
 
-mixin-fall-down
-===============
+### Small mixin for Compass to create waterfall effect for one page scroll website
