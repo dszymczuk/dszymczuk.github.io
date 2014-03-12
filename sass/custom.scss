@@ -41,12 +41,29 @@ p {
 }
 
 a {
-  color: darken($yellow,10%);
+   color: darken($yellow,10%);
+ }
+
+a:hover, a:focus {
+  color: darken($yellow,20%);
+}
+
+.jumbotron {
+  color: black;
+  p {
+    font-size: 14px;
+    &.question {
+      font-weight: bold;
+    }
+  }
+  div.indent {
+    padding-left: 30px;
+  }
 }
 
 
 
 
 $steps: 10;
-@include fall-down("page",$steps,$blue,"lighten",10%);
-//@include fall-down("page",$steps,$blue,"lighten",step-helper($steps));
+//@include fall-down("page",$steps,$blue,"lighten",10%);
+@include fall-down("page",$steps,$blue,"lighten",step-helper(20));

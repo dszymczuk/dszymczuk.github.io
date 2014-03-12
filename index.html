@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>One Page Scroll Waterfall - dSzymczuk</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -14,40 +14,47 @@
             $(".main").onepage_scroll({
                 sectionContainer: "section",
                 responsiveFallback: 600,
-                loop: true
-            }).moveTo(2);
+                loop: true,
+                updateURL: true
+            });
         });
     </script>
 </head>
 <body>
 <div class="wrapper">
     <div class="main">
-        <!--<section id="page-1" class="container">-->
-            <!--<div class="row tab_parent">-->
-                <!--<div class="tab_child">-->
-                    <!--<div class="col-xs-10 col-xs-offset-2">-->
-                        <!--<h1 class="big">One Page Scroll Waterfall</h1>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</section>-->
-        <!--<section id="page-2" class="container">-->
-            <!--<div class="row tab_parent">-->
-                <!--<div class="tab_child">-->
-                    <!--<div class="col-xs-10 col-xs-offset-2">-->
-                        <!--<h1>What is it?</h1>-->
-                        <!--<p>It's simple mixin for SASS to create gradient cross whole page.</p>-->
-                        <!--<p>One Page Scroll is based on Pete R jQuery script:</p>-->
-                        <!--<p><a href="https://github.com/peachananr/onepage-scroll">One Page Scroll by Pete R. on Github.com</a></p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</section>-->
+        <section id="page-1" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1 class="big">One Page Scroll Waterfall</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="page-2" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>What is it?</h1>
+
+                        <p>It's simple mixin for SASS to create gradient cross whole page.</p>
+
+                        <p>One Page Scroll is based on Pete R jQuery script:</p>
+
+                        <p><a href="https://github.com/peachananr/onepage-scroll">One Page Scroll by Pete R. on
+                            Github.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="page-3" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
+                    <div class="col-xs-8 col-xs-offset-2">
                         <h1>What we need?</h1>
+
+                        <p>To use this mixin you need Compass and this script.</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +63,23 @@
         <section id="page-4" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
-                        <h1>What we need?</h1>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>How to use it?</h1>
+
+                        <div class="jumbotron">
+                            <h3>It's simple!</h3>
+
+                            <p></p>
+
+                            <p>You have to set parameters:</p>
+                            <ul>
+                                <li>Name of ID element</li>
+                                <li>Number of steps</li>
+                                <li>Start color</li>
+                                <li>Type of waterfall - lighten or darken</li>
+                                <li>Step color in %</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,8 +88,27 @@
         <section id="page-5" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
-                        <h1>What we need?</h1>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Example for use</h1>
+
+                        <div class="jumbotron">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <pre>@include fall-down("page",4,#040B13,"lighten",10%);</pre>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-xs-12">
+                                    <p>
+                                        It will generate CSS with ID of element call page-N where, N is number of step
+                                        start from 1 (in this example from 1 to 4).
+                                        Initial color is #040B13 (tone of blue), type is lighten (go from dark to light)
+                                        and color step is 10% .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,8 +117,40 @@
         <section id="page-6" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
-                        <h1>What we need?</h1>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Small FAQ</h1>
+
+                        <div class="jumbotron">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <p class="question">1. Is it possible to set automatically step?</p>
+
+                                    <p>Yes, it is possible! You can use step-helper as last parameter:</p>
+                                    <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                    <p>But it's one problem with this solution - last step is white so you have to
+                                        change font color or .... check 2 point</p>
+
+                                    <p class="question">2. Is it possible to last color as not white or black?</p>
+
+                                    <p>Yes, it is possible.<br>
+                                        You have to two solutions:</p>
+
+                                    <p>First:</p>
+
+                                    <div class="indent">
+                                        <p>You can use step-helper as last parameter:</p>
+                                        <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                    </div>
+                                    <p>Second:</p>
+
+                                    <div class="indent">
+                                        <p>You can use step-helper as last parameter:</p>
+                                        <pre>@include fall-down("page",4,#040B13,"lighten",step-helper(4));</pre>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,8 +159,14 @@
         <section id="page-7" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
-                        <h1>What we need?</h1>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Examples in your browser</h1>
+                        <div class="jumbotron">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,7 +175,7 @@
         <section id="page-8" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
+                    <div class="col-xs-8 col-xs-offset-2">
                         <h1>What we need?</h1>
                     </div>
                 </div>
@@ -106,8 +185,14 @@
         <section id="page-9" class="container">
             <div class="row tab_parent">
                 <div class="tab_child">
-                    <div class="col-xs-10 col-xs-offset-2">
-                        <h1>What we need?</h1>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Download ZIP</h1>
+
+                        <p><a href="dszymczuk-waterfall-mixin.zip">dszymczuk-waterfall-mixin.zip</a></p>
+
+                        <h1>or use Github.com</h1>
+
+                        <p><a href="http://github.com/dszymczuk/mixin-waterfall">dSzymczuk on Github.com</a></p>
                     </div>
                 </div>
             </div>

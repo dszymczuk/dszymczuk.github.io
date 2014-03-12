@@ -43,83 +43,105 @@ a {
   color: #cccc00;
 }
 
+/* line 47, ../sass/custom.scss */
+a:hover, a:focus {
+  color: #999900;
+}
+
+/* line 51, ../sass/custom.scss */
+.jumbotron {
+  color: black;
+}
+/* line 53, ../sass/custom.scss */
+.jumbotron p {
+  font-size: 14px;
+}
+/* line 55, ../sass/custom.scss */
+.jumbotron p.question {
+  font-weight: bold;
+}
+/* line 59, ../sass/custom.scss */
+.jumbotron div.indent {
+  padding-left: 30px;
+}
+
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-1 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #040b13), color-stop(100%, #0d233d));
-  background: -webkit-linear-gradient(top, #040b13, #0d233d);
-  background: -moz-linear-gradient(top, #040b13, #0d233d);
-  background: -o-linear-gradient(top, #040b13, #0d233d);
-  background: linear-gradient(top, #040b13, #0d233d);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #040b13), color-stop(100%, #081728));
+  background: -webkit-linear-gradient(top, #040b13, #081728);
+  background: -moz-linear-gradient(top, #040b13, #081728);
+  background: -o-linear-gradient(top, #040b13, #081728);
+  background: linear-gradient(top, #040b13, #081728);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-2 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d233d), color-stop(100%, #163c67));
-  background: -webkit-linear-gradient(top, #0d233d, #163c67);
-  background: -moz-linear-gradient(top, #0d233d, #163c67);
-  background: -o-linear-gradient(top, #0d233d, #163c67);
-  background: linear-gradient(top, #0d233d, #163c67);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #081728), color-stop(100%, #0d233d));
+  background: -webkit-linear-gradient(top, #081728, #0d233d);
+  background: -moz-linear-gradient(top, #081728, #0d233d);
+  background: -o-linear-gradient(top, #081728, #0d233d);
+  background: linear-gradient(top, #081728, #0d233d);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-3 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #163c67), color-stop(100%, #1f5491));
-  background: -webkit-linear-gradient(top, #163c67, #1f5491);
-  background: -moz-linear-gradient(top, #163c67, #1f5491);
-  background: -o-linear-gradient(top, #163c67, #1f5491);
-  background: linear-gradient(top, #163c67, #1f5491);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d233d), color-stop(100%, #113052));
+  background: -webkit-linear-gradient(top, #0d233d, #113052);
+  background: -moz-linear-gradient(top, #0d233d, #113052);
+  background: -o-linear-gradient(top, #0d233d, #113052);
+  background: linear-gradient(top, #0d233d, #113052);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-4 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1f5491), color-stop(100%, #276dbc));
-  background: -webkit-linear-gradient(top, #1f5491, #276dbc);
-  background: -moz-linear-gradient(top, #1f5491, #276dbc);
-  background: -o-linear-gradient(top, #1f5491, #276dbc);
-  background: linear-gradient(top, #1f5491, #276dbc);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #113052), color-stop(100%, #163c67));
+  background: -webkit-linear-gradient(top, #113052, #163c67);
+  background: -moz-linear-gradient(top, #113052, #163c67);
+  background: -o-linear-gradient(top, #113052, #163c67);
+  background: linear-gradient(top, #113052, #163c67);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-5 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #276dbc), color-stop(100%, #3f86d7));
-  background: -webkit-linear-gradient(top, #276dbc, #3f86d7);
-  background: -moz-linear-gradient(top, #276dbc, #3f86d7);
-  background: -o-linear-gradient(top, #276dbc, #3f86d7);
-  background: linear-gradient(top, #276dbc, #3f86d7);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #163c67), color-stop(100%, #1a487c));
+  background: -webkit-linear-gradient(top, #163c67, #1a487c);
+  background: -moz-linear-gradient(top, #163c67, #1a487c);
+  background: -o-linear-gradient(top, #163c67, #1a487c);
+  background: linear-gradient(top, #163c67, #1a487c);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-6 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f86d7), color-stop(100%, #69a1e0));
-  background: -webkit-linear-gradient(top, #3f86d7, #69a1e0);
-  background: -moz-linear-gradient(top, #3f86d7, #69a1e0);
-  background: -o-linear-gradient(top, #3f86d7, #69a1e0);
-  background: linear-gradient(top, #3f86d7, #69a1e0);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1a487c), color-stop(100%, #1f5491));
+  background: -webkit-linear-gradient(top, #1a487c, #1f5491);
+  background: -moz-linear-gradient(top, #1a487c, #1f5491);
+  background: -o-linear-gradient(top, #1a487c, #1f5491);
+  background: linear-gradient(top, #1a487c, #1f5491);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-7 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #69a1e0), color-stop(100%, #94bbe8));
-  background: -webkit-linear-gradient(top, #69a1e0, #94bbe8);
-  background: -moz-linear-gradient(top, #69a1e0, #94bbe8);
-  background: -o-linear-gradient(top, #69a1e0, #94bbe8);
-  background: linear-gradient(top, #69a1e0, #94bbe8);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1f5491), color-stop(100%, #2360a6));
+  background: -webkit-linear-gradient(top, #1f5491, #2360a6);
+  background: -moz-linear-gradient(top, #1f5491, #2360a6);
+  background: -o-linear-gradient(top, #1f5491, #2360a6);
+  background: linear-gradient(top, #1f5491, #2360a6);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-8 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #94bbe8), color-stop(100%, #bed6f1));
-  background: -webkit-linear-gradient(top, #94bbe8, #bed6f1);
-  background: -moz-linear-gradient(top, #94bbe8, #bed6f1);
-  background: -o-linear-gradient(top, #94bbe8, #bed6f1);
-  background: linear-gradient(top, #94bbe8, #bed6f1);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2360a6), color-stop(100%, #276dbc));
+  background: -webkit-linear-gradient(top, #2360a6, #276dbc);
+  background: -moz-linear-gradient(top, #2360a6, #276dbc);
+  background: -o-linear-gradient(top, #2360a6, #276dbc);
+  background: linear-gradient(top, #2360a6, #276dbc);
 }
 
 /* line 21, ../sass/.mixin-waterfall.scss */
 #page-9 {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bed6f1), color-stop(100%, #e8f0fa));
-  background: -webkit-linear-gradient(top, #bed6f1, #e8f0fa);
-  background: -moz-linear-gradient(top, #bed6f1, #e8f0fa);
-  background: -o-linear-gradient(top, #bed6f1, #e8f0fa);
-  background: linear-gradient(top, #bed6f1, #e8f0fa);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #276dbc), color-stop(100%, #2c79d1));
+  background: -webkit-linear-gradient(top, #276dbc, #2c79d1);
+  background: -moz-linear-gradient(top, #276dbc, #2c79d1);
+  background: -o-linear-gradient(top, #276dbc, #2c79d1);
+  background: linear-gradient(top, #276dbc, #2c79d1);
 }
