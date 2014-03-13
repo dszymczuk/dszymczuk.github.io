@@ -28,6 +28,9 @@ html {
       height: 100%;
     }
   }
+  &.dark-font {
+    color:black;
+  }
 
   h1.big {
     font-size: 60px;
@@ -56,6 +59,9 @@ html {
     }
     div.indent {
       padding-left: 30px;
+    }
+    a.example-link {
+      color: mediumblue;
     }
   }
 }

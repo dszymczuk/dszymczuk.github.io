@@ -1,0 +1,184 @@
+/* example vulcano*/
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-page-1 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e82c0c), color-stop(100%, #b82309));
+  background: -webkit-linear-gradient(top, #e82c0c, #b82309);
+  background: -moz-linear-gradient(top, #e82c0c, #b82309);
+  background: -o-linear-gradient(top, #e82c0c, #b82309);
+  background: linear-gradient(top, #e82c0c, #b82309);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-page-2 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b82309), color-stop(100%, #871a07));
+  background: -webkit-linear-gradient(top, #b82309, #871a07);
+  background: -moz-linear-gradient(top, #b82309, #871a07);
+  background: -o-linear-gradient(top, #b82309, #871a07);
+  background: linear-gradient(top, #b82309, #871a07);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-page-3 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #871a07), color-stop(100%, #571004));
+  background: -webkit-linear-gradient(top, #871a07, #571004);
+  background: -moz-linear-gradient(top, #871a07, #571004);
+  background: -o-linear-gradient(top, #871a07, #571004);
+  background: linear-gradient(top, #871a07, #571004);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-page-4 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #571004), color-stop(100%, #260702));
+  background: -webkit-linear-gradient(top, #571004, #260702);
+  background: -moz-linear-gradient(top, #571004, #260702);
+  background: -o-linear-gradient(top, #571004, #260702);
+  background: linear-gradient(top, #571004, #260702);
+}
+
+/* example forest*/
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-forest-page-1 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #284907), color-stop(100%, #040701));
+  background: -webkit-linear-gradient(top, #284907, #040701);
+  background: -moz-linear-gradient(top, #284907, #040701);
+  background: -o-linear-gradient(top, #284907, #040701);
+  background: linear-gradient(top, #284907, #040701);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-forest-page-2 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #040701), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, #040701, #000000);
+  background: -moz-linear-gradient(top, #040701, #000000);
+  background: -o-linear-gradient(top, #040701, #000000);
+  background: linear-gradient(top, #040701, #000000);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-forest-page-3 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, #000000, #000000);
+  background: -moz-linear-gradient(top, #000000, #000000);
+  background: -o-linear-gradient(top, #000000, #000000);
+  background: linear-gradient(top, #000000, #000000);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-forest-page-4 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, #000000, #000000);
+  background: -moz-linear-gradient(top, #000000, #000000);
+  background: -o-linear-gradient(top, #000000, #000000);
+  background: linear-gradient(top, #000000, #000000);
+}
+
+/* example heaven*/
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-heaven-page-1 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #225378), color-stop(100%, #337cb4));
+  background: -webkit-linear-gradient(top, #225378, #337cb4);
+  background: -moz-linear-gradient(top, #225378, #337cb4);
+  background: -o-linear-gradient(top, #225378, #337cb4);
+  background: linear-gradient(top, #225378, #337cb4);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-heaven-page-2 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #337cb4), color-stop(100%, #61a1d2));
+  background: -webkit-linear-gradient(top, #337cb4, #61a1d2);
+  background: -moz-linear-gradient(top, #337cb4, #61a1d2);
+  background: -o-linear-gradient(top, #337cb4, #61a1d2);
+  background: linear-gradient(top, #337cb4, #61a1d2);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-heaven-page-3 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #61a1d2), color-stop(100%, #9cc5e3));
+  background: -webkit-linear-gradient(top, #61a1d2, #9cc5e3);
+  background: -moz-linear-gradient(top, #61a1d2, #9cc5e3);
+  background: -o-linear-gradient(top, #61a1d2, #9cc5e3);
+  background: linear-gradient(top, #61a1d2, #9cc5e3);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-heaven-page-4 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9cc5e3), color-stop(100%, #d8e8f4));
+  background: -webkit-linear-gradient(top, #9cc5e3, #d8e8f4);
+  background: -moz-linear-gradient(top, #9cc5e3, #d8e8f4);
+  background: -o-linear-gradient(top, #9cc5e3, #d8e8f4);
+  background: linear-gradient(top, #9cc5e3, #d8e8f4);
+}
+
+/* example icy*/
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-icy-page-1 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cc3c4), color-stop(100%, #aed5d5));
+  background: -webkit-linear-gradient(top, #8cc3c4, #aed5d5);
+  background: -moz-linear-gradient(top, #8cc3c4, #aed5d5);
+  background: -o-linear-gradient(top, #8cc3c4, #aed5d5);
+  background: linear-gradient(top, #8cc3c4, #aed5d5);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-icy-page-2 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aed5d5), color-stop(100%, #cfe6e7));
+  background: -webkit-linear-gradient(top, #aed5d5, #cfe6e7);
+  background: -moz-linear-gradient(top, #aed5d5, #cfe6e7);
+  background: -o-linear-gradient(top, #aed5d5, #cfe6e7);
+  background: linear-gradient(top, #aed5d5, #cfe6e7);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-icy-page-3 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cfe6e7), color-stop(100%, #f1f8f8));
+  background: -webkit-linear-gradient(top, #cfe6e7, #f1f8f8);
+  background: -moz-linear-gradient(top, #cfe6e7, #f1f8f8);
+  background: -o-linear-gradient(top, #cfe6e7, #f1f8f8);
+  background: linear-gradient(top, #cfe6e7, #f1f8f8);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-icy-page-4 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f8f8), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #f1f8f8, #ffffff);
+  background: -moz-linear-gradient(top, #f1f8f8, #ffffff);
+  background: -o-linear-gradient(top, #f1f8f8, #ffffff);
+  background: linear-gradient(top, #f1f8f8, #ffffff);
+}
+
+/* example orange*/
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-orange-page-1 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb7f00), color-stop(100%, #d27100));
+  background: -webkit-linear-gradient(top, #eb7f00, #d27100);
+  background: -moz-linear-gradient(top, #eb7f00, #d27100);
+  background: -o-linear-gradient(top, #eb7f00, #d27100);
+  background: linear-gradient(top, #eb7f00, #d27100);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-orange-page-2 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d27100), color-stop(100%, #b86300));
+  background: -webkit-linear-gradient(top, #d27100, #b86300);
+  background: -moz-linear-gradient(top, #d27100, #b86300);
+  background: -o-linear-gradient(top, #d27100, #b86300);
+  background: linear-gradient(top, #d27100, #b86300);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-orange-page-3 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b86300), color-stop(100%, #9f5600));
+  background: -webkit-linear-gradient(top, #b86300, #9f5600);
+  background: -moz-linear-gradient(top, #b86300, #9f5600);
+  background: -o-linear-gradient(top, #b86300, #9f5600);
+  background: linear-gradient(top, #b86300, #9f5600);
+}
+
+/* line 22, ../sass/.mixin-waterfall.scss */
+#example-orange-page-4 {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9f5600), color-stop(100%, #854800));
+  background: -webkit-linear-gradient(top, #9f5600, #854800);
+  background: -moz-linear-gradient(top, #9f5600, #854800);
+  background: -o-linear-gradient(top, #9f5600, #854800);
+  background: linear-gradient(top, #9f5600, #854800);
+}

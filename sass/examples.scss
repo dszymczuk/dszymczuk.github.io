@@ -1,0 +1,17 @@
+@import "compass/css3/images";
+@import "compass/css3/text-shadow";
+@import ".mixin-waterfall";
+/* example vulcano*/
+@include waterfall("example-page", 4, #E82C0C, "darken", step-helper(10));
+
+/* example forest*/
+@include waterfall("example-forest-page", 4, #284907, "darken", step-helper(7));
+
+/* example heaven*/
+@include waterfall("example-heaven-page", 4, #225378, "lighten", 15%);
+
+/* example icy*/
+@include waterfall("example-icy-page", 4, #8CC3C4, "lighten", 10%);
+
+/* example orange*/
+@include waterfall("example-orange-page", 4, #EB7F00, "darken", 5%);

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>One Page Scroll Waterfall - dSzymczuk</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.onepage-scroll.min.js"></script>
+    <link rel="stylesheet" href="../css/onepage-scroll.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/examples.css">
+    <script>
+        $(document).ready(function () {
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: 600,
+                loop: true,
+                updateURL: true
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <section id="example-forest-page-1" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1 class="big">Example</h1>
+                        <p>Forest</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="example-forest-page-2" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>How to</h1>
+                        <div class="jumbotron">
+                            <h3>Parameters:</h3>
+                            <ul>
+                                <li>Name of ID element: <span class="badge">example-forest-page</span></li>
+                                <li>Number of steps: <span class="badge">4</span></li>
+                                <li>Start color: <span class="badge" style="background-color: #284907">#284907</span></li>
+                                <li>Type of waterfall: <span class="badge">darken</span></li>
+                                <li>Step color in %: <span class="badge">using helper with 7 steps</span></li>
+                            </ul>
+                            <h3>Code:</h3>
+                            <pre>@include waterfall("page", 4, #284907, "darken", step-helper(7));</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="example-forest-page-3" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Scroll down</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="example-forest-page-4" class="container">
+            <div class="row tab_parent">
+                <div class="tab_child">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h1>Back to main</h1>
+                        <p><a href="../index.html#7"><< back</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>
+

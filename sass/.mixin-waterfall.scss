@@ -3,6 +3,7 @@
 }
 
 @mixin waterfall ($id_name: "page",$times: 3, $start_color: #000, $type: "lighten", $color_step: 10%){
+  $times : $times + 1;
   $old_color:$start_color;
   $new_color: #000; //it's for complile scss - it will be override
   $i: 1;
