@@ -1,3 +1,5 @@
+@import "compass/css3/images";
+
 @function step-helper($steps){
   @return 100/$steps;
 }
